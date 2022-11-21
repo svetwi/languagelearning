@@ -30,10 +30,12 @@ nav{
 }
 nav ul{
     display:flex;
-    list-style-type: none;
+    list-style-type:none;
+    margin-left: auto;
+    margin-right: auto;
 }
 nav li{
-    margin-left:86%;
+    margin-left:20px;
     background-color:#3D5A5B;
     color:#F7F1ED;
     border:6px solid #3D5A5B;
@@ -46,10 +48,10 @@ article{
 }
 a, a:visited{
     color:#F7F1ED;
-    text-decoration: none;
+    text-decoration:none;
 }
 li:hover{
-    background-color: #2F365F;
+    background-color:#2F365F;
     border-color:#2F365F;
 }
 header h4{
