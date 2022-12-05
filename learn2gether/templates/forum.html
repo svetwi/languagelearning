@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Connect With Others!</title>
+        <link rel="stylesheet" href="/static/style.css">
+        <link rel="stylesheet" href="/static/forum.css">
+    </head>
+    <body>
+		<header>
+			<h1 id="title">Learn2Gether</h1>
+			<img src="/static/banner.png">
+		</header>
+		<nav>
+			<ul>
+                <li><a href="/">Home</a></li>
+				<li><a href="/study">Study</a></li>
+				<li><a href="/request">Request</a></li>
+				<li><a href="/exercise">Exercise</a></li>
+			</ul>
+		</nav>
+		<section id="posting">
+			<form action="/forum" method="post">
+				<textarea type="text" id="postarea" name="content"></textarea>
+				<input type="submit" id="postbtn">
+			</form>	
+		</section>
+		<section>
+			{% for post in posts: %}
+				<article></article>
+			{%endfor%}
+		</section>
+    </body>
+</html>
