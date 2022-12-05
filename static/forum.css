@@ -1,0 +1,5 @@
+.posting{
+    position:flex;
+    flex-direction:column;
+    justify-content: center;
+}
